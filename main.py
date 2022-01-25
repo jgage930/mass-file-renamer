@@ -15,8 +15,6 @@ def main():
     #rename
     for index, file in enumerate(filesToName):
         os.rename(f"Files/{file}", f"{folder_name}/{names[index].strip()}{extension}")
-    print(names)
-    print(*filesToName, sep='\n')
 
 if __name__ =='__main__':
     main()
